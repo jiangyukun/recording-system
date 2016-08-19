@@ -1,0 +1,164 @@
+<div class="base-info" ng-controller="RecordingBaseInfoController as baseInfoCtrl">
+    <header>
+        访视0 基本信息
+    </header>
+
+    <section>
+        <header>
+            一般情况和生命体征
+        </header>
+        <div class="input-group1 clearfix">
+            <div class="w-50">
+                <input-text class="input-row">
+                    <label class="input-label">出生日期：</label>
+                    <input type="text" placeholder="请选择日期" date-time-picker="YYYY-MM-DD" ng-model="baseInfoCtrl.birthday"/>
+                </input-text>
+
+                <input-text class="input-row">
+                    <label class="input-label">姓名：</label>
+                    <input type="text" placeholder="请输入姓名"/>
+                </input-text>
+
+                <input-text class="input-row">
+                    <label class="input-label">手机号：</label>
+                    <input type="text" placeholder="请输入手机号"/>
+                </input-text>
+            </div>
+
+            <div class="w-50">
+                <input-text class="input-row">
+                    <label class="input-label">民族：</label>
+                    <input type="text" placeholder="请选择日期"/>
+                </input-text>
+
+                <input-text class="input-row">
+                    <label class="input-label">身份证号：</label>
+                    <input type="text" placeholder="请输入"/>
+                </input-text>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <header>
+            乙肝相关病史
+        </header>
+        <div class="input-group2 clearfix">
+            <input-text class="input-row">
+                <label>1、确诊患有乙肝的日期：</label>
+                <input type="text" placeholder="请选择日期"/>
+            </input-text>
+
+            <div class="input-row">
+                <label class="select-type">2、亲戚中是否有乙肝病毒携带者？</label>
+                <div radio-group="a">
+                    <input type="radio"/><label>否</label>
+                    <input type="radio"/><label>是</label>
+                    <span>->请记录如下感染家族成员：</span>
+                </div>
+
+                <div class="other-option">
+                    <div check-box>
+                        <input type="checkbox"/>
+                        <label>母亲</label>
+                    </div>
+                    <div check-box>
+                        <input type="checkbox"/>
+                        <label>父亲</label>
+                    </div>
+                    <div check-box>
+                        <input type="checkbox"/>
+                        <label>子女</label>
+                    </div>
+
+                    <div check-box>
+                        <input type="checkbox"/>
+                        <label>配偶</label>
+                    </div>
+                    <div check-box>
+                        <input type="checkbox"/>
+                        <label>其他，予以说明</label>
+                        <input-text>
+                            <input type="text" placeholder=""/>
+                        </input-text>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="input-row">
+                <label class="select-type">3、合并丙肝：</label>
+                <div radio-group="bin_gan">
+                    <input type="radio"/><label>否</label>
+                    <input type="radio"/><label>是</label>
+                </div>
+
+                <label class="select-type">合并HIV：</label>
+                <div radio-group="hiv">
+                    <input type="radio"/><label>否</label>
+                    <input type="radio"/><label>是</label>
+                </div>
+
+                <label class="select-type">合并梅毒：</label>
+                <div radio-group="mei_du">
+                    <input type="radio"/><label>否</label>
+                    <input type="radio"/><label>是</label>
+                </div>
+
+                <div class="other-option">
+                    <label class="select-type">是否有其他合成疾病：</label>
+                    <div radio-group="other_disease">
+                        <input type="radio"/><label>否</label>
+                        <input type="radio"/><label>是</label>
+                        <label>合成病毒名称：</label>
+                        <input-text>
+                            <input type="text" placeholder=""/>
+                        </input-text>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <header>
+            孕产期
+        </header>
+        <div class="input-group3 clearfix">
+            <div class="w-50">
+                <input-text class="input-row">
+                    <label>1、末次月经开始时间：</label>
+                    <input type="text" placeholder="请选择日期"/>
+
+                </input-text>
+                <div class="other-option">
+                    <input-text class="input-row">
+                        <label>预产期：</label>
+                        <input type="text" placeholder="请选择日期"/>
+                    </input-text>
+                </div>
+
+                <input-text class="input-row">
+                    <label>2、生产次数：</label>
+                    <input type="text" placeholder="请输入"/>
+
+                </input-text>
+                <div class="other-option">
+                    <input-text class="input-row">
+                        <label>存活子女数：</label>
+                        <input type="text" placeholder="请输入"/>
+                    </input-text>
+                </div>
+                <div class="other-option">
+                    <div radio-group="is_gan_ran">
+                        <label>子女是否感染：</label>
+                        <input type="radio"/><label>否</label>
+                        <input type="radio"/><label>是</label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</div>

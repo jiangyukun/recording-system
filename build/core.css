@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  background-color: #f1f1f1;
+}
+label {
+  font-weight: normal;
+}
+.pos-rlt {
+  position: relative;
+}
+.w-50 {
+  float: left;
+  width: 50%;
+}
+.app-content {
+  position: absolute;
+  left: 140px;
+  top: 52px;
+  right: 0;
+  bottom: 0;
+}
+ul {
+  list-style-type: none;
+}
+button,
+input[type="checkbox"] {
+  outline: none;
+}
+.check-wrap {
+  position: relative;
+  display: inline-block;
+}
+.check-wrap label {
+  font-size: 16px;
+  vertical-align: super;
+}
+.check-wrap span {
+  vertical-align: super;
+}
+.toggle {
+  text-align: center;
+  background: none;
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+.toggle:after {
+  content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#aaa" stroke-width="3"/></svg>');
+}
+.toggle:checked:after {
+  content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#bddad5" stroke-width="3"/><path fill="#5dc2af" d="M72 25L42 71 27 56l-4 4 20 20 34-52z"/></svg>');
+}

@@ -1,0 +1,22 @@
+<div class="mother-baby-v2">
+    <header>
+        <p class="select-patient">选择患者</p>
+    </header>
+
+    <section>
+        <div class="search-area">
+            <div class="input-wrap">
+                <input type="text" placeholder="输入患者编号"/>
+            </div>
+            <button class="btn">搜索</button>
+        </div>
+        <ul class="patient-list ">
+            <li class="patient-item clearfix" ng-click="motherBabyV2Ctrl.selectPatient(patient)"
+                ng-repeat="patient in motherBabyV2Ctrl.patientList">
+                <span class="name">
+                    {{patient.name}}
+                </span>
+            </li>
+        </ul>
+    </section>
+</div>

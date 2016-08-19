@@ -1,0 +1,180 @@
+.aside-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 140px;
+  padding-top: 54px;
+  height: 100%;
+}
+.aside-wrap .navi-wrap {
+  border-right: 1px solid #ccc;
+  height: 100%;
+}
+.aside-wrap .current-item {
+  text-align: center;
+}
+.aside-wrap .logout {
+  position: absolute;
+  bottom: 25px;
+  left: 30px;
+}
+.app-header {
+  border-bottom: 1px solid #ccc;
+}
+.select-project {
+  width: 960px;
+  margin: 100px auto 0 auto;
+}
+.select-project .tip-text {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.select-project ul li {
+  float: left;
+}
+.select-project .project-item {
+  width: 170px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+.select-project .project-item:hover {
+  background: #2aabd2;
+}
+.select-project .project-item:not(:last-child) {
+  margin-right: 7px;
+}
+.select-project .project-item .item-name {
+  font-size: 20px;
+}
+.login {
+  margin: 100px auto 0 auto;
+  width: 360px;
+}
+.login .title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.login input {
+  border: none;
+  outline: none;
+}
+.login .input-container {
+  margin-bottom: 10px;
+}
+.login .input-container .input-groups {
+  border: 1px solid #e7ecee;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.login .input-container .input-groups .input-item {
+  height: 40px;
+}
+.app-content {
+  padding: 10px;
+}
+.app-content-body {
+  animation: fadeInUp 0.5s;
+}
+.mother-baby-v2 .select-patient {
+  font-size: 18px;
+  font-weight: bold;
+}
+.mother-baby-v2 .search-area .input-wrap {
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 6px 7px;
+  width: 220px;
+}
+.mother-baby-v2 .search-area .input-wrap input {
+  background: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.mother-baby-v2 .patient-list {
+  border: 1px solid #ddd;
+  margin-top: 15px;
+}
+.mother-baby-v2 .patient-list .patient-item {
+  padding: 10px 10px;
+}
+.mother-baby-v2 .patient-list .patient-item .name {
+  float: left;
+}
+.mother-baby-v2 .patient-list .patient-item:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+.patient-info {
+  display: flex;
+}
+.patient-info .select-recording-model {
+  width: 200px;
+}
+.patient-info .select-recording-model ul li {
+  cursor: pointer;
+  background: rgba(195, 217, 236, 0.8);
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-left: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.patient-info .select-recording-model ul li.active {
+  background: #0F6AB4;
+}
+.patient-info .recording-panel {
+  flex: 1;
+  padding: 15px;
+  border-radius: 10px;
+  background: #fff;
+}
+.patient-info .recording-panel .base-info > header {
+  font-size: 18px;
+  background: #f1f1f1;
+  border-radius: 4px;
+  padding: 10px;
+}
+.patient-info .recording-panel section {
+  margin-top: 10px;
+}
+.patient-info .recording-panel section > header {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.patient-info .recording-panel section .input-row {
+  display: block;
+  margin-top: 5px;
+}
+.patient-info .recording-panel section .input-row label.select-type {
+  vertical-align: super;
+}
+.patient-info .recording-panel section .input-row .input-wrap {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px 7px;
+  display: inline-block;
+}
+.patient-info .recording-panel section .input-row .input-wrap input {
+  border: none;
+  outline: none;
+}
+.patient-info .recording-panel section .input-row .input-label {
+  width: 100px;
+}
+.patient-info .recording-panel section .input-row .input-label-big {
+  width: 150px;
+}
+.patient-info .recording-panel section .other-option {
+  margin-left: 15px;
+}

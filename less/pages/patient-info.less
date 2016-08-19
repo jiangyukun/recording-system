@@ -1,0 +1,82 @@
+
+.patient-info {
+
+    display: flex;
+
+    .select-recording-model {
+        width: 200px;
+
+        ul li {
+            cursor: pointer;
+            background: rgba(195, 217, 236, 0.8);
+            color: #fff;
+            font-size: 16px;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-left: none;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+
+            &.active {
+                background: #0F6AB4;
+            }
+        }
+    }
+
+    .recording-panel {
+        flex: 1;
+        padding: 15px;
+        border-radius: 10px;
+        background: #fff;
+
+        .base-info > header {
+            font-size: 18px;
+            background: #f1f1f1;
+            border-radius: 4px;
+            padding: 10px;
+        }
+
+        section {
+            margin-top: 10px;
+
+            & > header {
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            .input-row {
+                display: block;
+                label.select-type {
+                    vertical-align: super;
+                }
+                margin-top: 5px;
+                .input-wrap {
+                    position: relative;
+                    border: 1px solid #ddd;
+                    border-radius: 4px;
+                    padding: 4px 7px;
+                    display: inline-block;
+                    input {
+                        border: none;
+                        outline: none;
+                    }
+                }
+
+                .input-label {
+                    width: 100px;
+                }
+
+                .input-label-big {
+                    width: 150px;
+                }
+            }
+
+            .other-option {
+                margin-left: 15px;
+            }
+
+        }
+
+    }
+}

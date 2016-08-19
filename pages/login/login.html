@@ -1,0 +1,22 @@
+<div class="login">
+    <div class="title">
+        <span>数据录入系统</span>
+    </div>
+    <div class="input-container">
+
+        <form name="form" class="form-validation">
+            <div class="input-groups">
+                <div class="input-item">
+                    <input placeholder="输入账号" class="form-control " ng-model="loginCtrl.username" required>
+                </div>
+                <div class="input-item">
+                    <input autocomplete="off" type="password" placeholder="输入密码" class="form-control " ng-model="loginCtrl.password" required>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-lg btn-primary btn-block" ng-click="loginCtrl.login()" ng-disabled='form.$invalid'>登录</button>
+            <div class="line line-dashed"></div>
+        </form>
+    </div>
+    <div class="text-center" ng-include="'pages/common/footer.html'"></div>
+
+</div>

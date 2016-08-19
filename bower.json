@@ -1,0 +1,22 @@
+{
+  "name": "angular-seed",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.0",
+  "homepage": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "moment": "~2.13.0",
+    "underscore": "",
+    "angular": "~1.5.5",
+    "angular-ui-router": "~0.3.0",
+    "angular-toastr": "~1.7.0",
+    "bootstrap": "~3.3.6",
+    "angular-bootstrap": "~v1.1.0",
+    "ocLazyLoad": "~1.0.9",
+    "FortAwesome/Font-Awesome": "~4.6.3",
+    "ng-dialog": "",
+    "eonasdan-bootstrap-datetimepicker": "",
+    "animate.css": "^3.5.2"
+  }
+}
